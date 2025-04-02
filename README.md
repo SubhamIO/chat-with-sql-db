@@ -1,20 +1,21 @@
 # chat-with-sql-db
 
+LINK : https://chat-with-sqldb.streamlit.app/
 
-## Few required information:
+
+
+## Few required STEPS to perform before using the app:
 - For my mac 12.7.6 monteray: mysqlserver: 8.0.41, and mysql workbench: 8.0.30
-
-
 
 1. download my sql server: https://www.youtube.com/watch?v=ODA3rWfmzg8 
 2. download my sql workbench: https://www.youtube.com/watch?v=vQPBNCvboSo
-3. install both in sequence (username: root, password: root@1234)
-4. open workbench nd click on localhost sql server
+3. install both in sequence 
+4. open workbench and click on localhost sql server
 
 5. create schema student
 CREATE SCHEMA `office_llm` ;
 
-6.create table student - sqllite - sqllite_data_ingest.py
+6.create table student - sqllite - code present here : sqllite_data_ingest.py
 
 7. create table student - mysql server
 use office_llm;
